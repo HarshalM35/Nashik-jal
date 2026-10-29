@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nashik Kumbh Jal | Sacred Water</title>
+
+    <meta name="description"
+        content="Nashik Kumbh Jal - A spiritual water experience inspired by Nashik and the Godavari.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header class="navbar">
+
+    <div class="logo">
+        💧 <span>Nashik</span> Kumbh Jal
+    </div>
+
+    <nav id="mainNav">
+
+        <a href="#home" data-i18n="navHome">Home</a>
+        <a href="#products" data-i18n="navJal">Jal</a>
+        <a href="#spiritual" data-i18n="navExperience">Experience</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#order" data-i18n="navOrder">Order</a>
+
+        <a href="my-orders.html" class="nav-special orders-link">
+            📋 <span data-i18n="myOrders">My Orders</span>
+        </a>
+
+        <a href="track.html" class="nav-special track-link">
+            📦 <span data-i18n="trackOrder">Track Order</span>
+        </a>
+
+        <a href="admin.html" class="nav-special admin-link">
+            🛠️ <span data-i18n="adminPanel">Admin Panel</span>
+        </a>
+
+    </nav>
+
+    <!-- LANGUAGE -->
+
+    <select id="languageSelector" class="language-selector"
+        onchange="changeLanguage(this.value)" aria-label="Language">
+
+        <option value="en">EN</option>
+        <option value="mr">मराठी</option>
+        <option value="hi">हिंदी</option>
+
+    </select>
+
+    <button class="cart-btn" onclick="openCart()">
+        🛒 <span data-i18n="cart">Cart</span>
+        <span id="cartCount">0</span>
+    </button>
+
+</header>
+
+
+<!-- =====================================================
+     CINEMATIC HERO
+===================================================== -->
+
+<section id="home" class="hero cinematic-section">
+
+    <div class="hero-background"></div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="floating-circle circle1"></div>
+    <div class="floating-circle circle2"></div>
+    <div class="floating-circle circle3"></div>
+
+    <div class="hero-content">
+
+        <p class="small-title" data-i18n="heroSmall">
+            Sacred Water • Nashik • Godavari
+        </p>
+
+        <h1>
+            Nashik
+            <br>
+            <span>Kumbh Jal</span>
+        </h1>
+
+        <p class="hero-text" data-i18n="heroText">
+            A drop inspired by the spiritual heritage of
+            Nashik, the sacred Godavari and the timeless
+            Kumbh tradition.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#products" class="primary-btn">
+                💧 <span data-i18n="explore">Explore Kumbh Jal</span>
+            </a>
+
+            <a href="#spiritual" class="secondary-btn">
+                🪔 <span data-i18n="discover">Discover Nashik</span>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="water-drop-3d">
+
+        <div class="drop-shine"></div>
+
+        <div class="drop-inner">
+            💧
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+
+        <span data-i18n="scroll">Scroll to explore</span>
+
+        <div class="scroll-line"></div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CINEMATIC NASHIK SECTION
+===================================================== -->
+
+<section class="story-section cinematic-section story-nashik">
+
+    <div class="story-background"></div>
+
+    <div class="story-overlay"></div>
+
+    <div class="story-content">
+
+        <p class="section-label">
+            🪔 <span data-i18n="divineNashik">DIVINE NASHIK</span> 🪔
+        </p>
+
+        <h2>
+            Where
+            <span data-i18n="faithMeets">Faith Meets Water</span>
+        </h2>
+
+        <p data-i18n="nashikText">
+            Nashik is deeply connected with the Godavari,
+            ancient temples and the Kumbh tradition.
+            This experience is inspired by that spiritual
+            atmosphere — water, devotion, heritage and
+            the timeless feeling of Nashik.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     GODAVARI SECTION
+===================================================== -->
+
+<section class="story-section cinematic-section story-godavari">
+
+    <div class="story-background"></div>
+
+    <div class="story-overlay"></div>
+
+    <div class="story-content">
+
+        <p class="section-label">
+            🌊 GODAVARI • NASHIK
+        </p>
+
+        <h2>
+            The Flow of
+            <span>Godavari</span>
+        </h2>
+
+        <p data-i18n="godavariText">
+            From the sacred banks of the Godavari,
+            Nashik carries a timeless connection between
+            nature, culture and spiritual tradition.
+        </p>
+
+        <div class="features">
+
+            <div>
+                🌊
+                <br>
+                <strong data-i18n="godavariInspiration">
+                    Godavari Inspiration
+                </strong>
+            </div>
+
+            <div>
+                🪷
+                <br>
+                <strong data-i18n="sacredTradition">
+                    Sacred Tradition
+                </strong>
+            </div>
+
+            <div>
+                🛕
+                <br>
+                <strong data-i18n="nashikHeritage">
+                    Nashik Heritage
+                </strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SPIRITUAL EXPERIENCE
+===================================================== -->
+
+<section id="spiritual" class="about-section immersive-section">
+
+    <div class="about-content">
+
+        <p class="section-label">
+            🪔 DIVINE NASHIK 🪔
+        </p>
+
+        <h2>
+            <span data-i18n="experienceTitle">
+                An Experience Inspired by
+            </span>
+            <br>
+            <span data-i18n="faith">Faith & Tradition</span>
+        </h2>
+
+        <p data-i18n="experienceText">
+
+            Nashik is known for its connection with the
+            Godavari, ancient temples and the Kumbh tradition.
+            Our digital experience brings together water,
+            devotion, heritage and modern presentation.
+
+        </p>
+
+        <div class="features">
+
+            <div>
+                🕉️
+                <br>
+                <strong data-i18n="spiritualHeritage">
+                    Spiritual Heritage
+                </strong>
+            </div>
+
+            <div>
+                🌊
+                <br>
+                <strong data-i18n="godavariInspiration">
+                    Godavari Inspiration
+                </strong>
+            </div>
+
+            <div>
+                🪷
+                <br>
+                <strong data-i18n="sacredTradition">
+                    Sacred Tradition
+                </strong>
+            </div>
+
+            <div>
+                🛕
+                <br>
+                <strong data-i18n="nashikHeritage">
+                    Nashik Heritage
+                </strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PRODUCTS
+===================================================== -->
+
+<section id="products" class="products-section">
+
+    <div class="section-heading">
+
+        <p data-i18n="collection">
+            🪷 OUR COLLECTION 🪷
+        </p>
+
+        <h2>
+            <span data-i18n="chooseYour">
+                Choose Your
+            </span>
+            <br>
+            <span>Kumbh Jal</span>
+        </h2>
+
+        <div class="heading-line"></div>
+
+        <p data-i18n="quantity">
+            Choose the quantity that suits your needs.
+        </p>
+
+    </div>
+
+
+    <div class="product-grid">
+
+
+        <!-- =================================================
+             250 ML
+        ================================================== -->
+
+        <div class="product-card cinematic-card">
+
+            <div class="product-image">
+                💧
+            </div>
+
+            <div class="product-info">
+
+                <span class="product-tag" data-i18n="mini">
+                    MINI
+                </span>
+
+                <h3>
+                    Kumbh Jal
+                </h3>
+
+                <p class="volume">
+                    250 ML
+                </p>
+
+                <p class="description" data-i18n="miniDescription">
+                    Compact size for personal use
+                    and spiritual occasions.
+                </p>
+
+                <div class="product-bottom">
+
+                    <strong>
+                        ₹49
+                    </strong>
+
+                    <!-- IMPORTANT: EXISTING FUNCTION UNCHANGED -->
+
+                    <button
+                        onclick="addToCart('250 ML Kumbh Jal',49)"
+                        data-i18n="add">
+                        Add +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             500 ML
+        ================================================== -->
+
+        <div class="product-card featured cinematic-card">
+
+            <div class="popular" data-i18n="popular">
+                POPULAR
+            </div>
+
+            <div class="product-image">
+                💧
+            </div>
+
+            <div class="product-info">
+
+                <span class="product-tag" data-i18n="standard">
+                    STANDARD
+                </span>
+
+                <h3>
+                    Kumbh Jal
+                </h3>
+
+                <p class="volume">
+                    500 ML
+                </p>
+
+                <p class="description" data-i18n="standardDescription">
+                    A convenient everyday size
+                    inspired by Nashik's spiritual heritage.
+                </p>
+
+                <div class="product-bottom">
+
+                    <strong>
+                        ₹79
+                    </strong>
+
+                    <!-- IMPORTANT: EXISTING FUNCTION UNCHANGED -->
+
+                    <button
+                        onclick="addToCart('500 ML Kumbh Jal',79)"
+                        data-i18n="add">
+                        Add +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             1 LITRE
+        ================================================== -->
+
+        <div class="product-card cinematic-card">
+
+            <div class="product-image">
+                💧
+            </div>
+
+            <div class="product-info">
+
+                <span class="product-tag" data-i18n="family">
+                    FAMILY
+                </span>
+
+                <h3>
+                    Kumbh Jal
+                </h3>
+
+                <p class="volume">
+                    1 Litre
+                </p>
+
+                <p class="description" data-i18n="familyDescription">
+                    Suitable for family use,
+                    पूजा and special occasions.
+                </p>
+
+                <div class="product-bottom">
+
+                    <strong>
+                        ₹129
+                    </strong>
+
+                    <!-- IMPORTANT: EXISTING FUNCTION UNCHANGED -->
+
+                    <button
+                        onclick="addToCart('1 Litre Kumbh Jal',129)"
+                        data-i18n="add">
+                        Add +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     DIVINE STORY
+===================================================== -->
+
+<section class="story-section cinematic-section story-temple">
+
+    <div class="story-background"></div>
+
+    <div class="story-overlay"></div>
+
+    <div class="story-content">
+
+        <p class="section-label">
+            🛕 NASHIK • GODAVARI • KUMBH
+        </p>
+
+        <h2>
+            A Journey Through
+            <span data-i18n="divineNashikTitle">
+                Divine Nashik
+            </span>
+        </h2>
+
+        <p data-i18n="journeyText">
+
+            From the banks of the Godavari to the ancient
+            temples of Nashik, the city carries a rich
+            spiritual atmosphere.
+
+        </p>
+
+        <p data-i18n="modernText">
+
+            Our website brings elements of that atmosphere
+            into a modern digital experience while keeping
+            the focus on the water product and your
+            ordering journey.
+
+        </p>
+
+        <div class="features">
+
+            <div>
+                🪔
+                <br>
+                <strong data-i18n="divineLight">
+                    Divine Light
+                </strong>
+            </div>
+
+            <div>
+                🌊
+                <br>
+                <strong data-i18n="flowGodavari">
+                    Flow of Godavari
+                </strong>
+            </div>
+
+            <div>
+                🧘
+                <br>
+                <strong data-i18n="peaceDevotion">
+                    Peace & Devotion
+                </strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section id="about" class="about-section">
+
+    <div class="about-content">
+
+        <p class="section-label" data-i18n="essence">
+            THE ESSENCE OF NASHIK
+        </p>
+
+        <h2>
+            <span data-i18n="moreThan">
+                More Than
+            </span>
+            <br>
+            <span data-i18n="justWater">
+                Just Water.
+            </span>
+        </h2>
+
+        <p data-i18n="aboutText1">
+
+            Nashik Kumbh Jal is designed as a spiritual
+            themed online experience inspired by Nashik's
+            cultural and religious heritage.
+
+        </p>
+
+        <p data-i18n="aboutText2">
+
+            Select your preferred quantity, add it to the
+            cart and enter your delivery details to continue
+            with your order.
+
+        </p>
+
+        <div class="features">
+
+            <div>
+                💧
+                <br>
+                <strong data-i18n="carefullyPresented">
+                    Carefully Presented
+                </strong>
+            </div>
+
+            <div>
+                📦
+                <br>
+                <strong data-i18n="safePackaging">
+                    Safe Packaging
+                </strong>
+            </div>
+
+            <div>
+                🚚
+                <br>
+                <strong data-i18n="deliverySupport">
+                    Delivery Support
+                </strong>
+            </div>
+
+            <div>
+                📍
+                <br>
+                <strong data-i18n="orderTracking">
+                    Order Tracking
+                </strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ORDER SECTION
+===================================================== -->
+
+<section id="order" class="order-section">
+
+    <div class="section-heading">
+
+        <p data-i18n="orderOnline">
+            🪔 ORDER ONLINE 🪔
+        </p>
+
+        <h2>
+            <span data-i18n="getYour">
+                Get Your
+            </span>
+            <br>
+            <span>Kumbh Jal</span>
+        </h2>
+
+        <div class="heading-line"></div>
+
+        <p data-i18n="deliveryCarefully">
+            Enter your delivery details carefully.
+        </p>
+
+    </div>
+
+
+    <div class="order-box">
+
+        <h3 data-i18n="deliveryDetails">
+            📦 Delivery Details
+        </h3>
+
+
+        <label for="customerName" data-i18n="yourName">
+            Your Name
+        </label>
+
+        <input
+            type="text"
+            id="customerName"
+            placeholder="Enter your full name"
+            data-placeholder="namePlaceholder"
+            autocomplete="name"
+        >
+
+
+        <label for="mobile" data-i18n="mobileNumber">
+            Mobile Number
+        </label>
+
+        <input
+            type="tel"
+            id="mobile"
+            placeholder="Enter 10 digit mobile number"
+            data-placeholder="mobilePlaceholder"
+            maxlength="10"
+            inputmode="numeric"
+            autocomplete="tel"
+        >
+
+
+        <label for="address" data-i18n="completeAddress">
+            Complete Delivery Address
+        </label>
+
+        <textarea
+            id="address"
+            placeholder="House No., Street, Village/City, District, Maharashtra"
+            data-placeholder="addressPlaceholder"
+        ></textarea>
+
+
+        <label for="pincode" data-i18n="pinCode">
+            PIN Code
+        </label>
+
+        <input
+            type="text"
+            id="pincode"
+            placeholder="Enter 6 digit PIN code"
+            data-placeholder="pinPlaceholder"
+            maxlength="6"
+            inputmode="numeric"
+            autocomplete="postal-code"
+        >
+
+
+        <div class="payment-notice">
+
+            <div class="payment-icon">
+                💳
+            </div>
+
+            <strong data-i18n="securePayment">
+                Secure Payment
+            </strong>
+
+            <p data-i18n="paymentText">
+                After entering your details,
+                continue to the payment step.
+            </p>
+
+        </div>
+
+
+        <!-- IMPORTANT: EXISTING FUNCTION UNCHANGED -->
+
+        <button
+            class="order-btn"
+            onclick="startOrder()"
+            data-i18n="continuePayment">
+
+            Continue to Payment →
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CART MODAL
+===================================================== -->
+
+<div id="cartModal" class="modal">
+
+    <div class="cart-box">
+
+        <button
+            class="close-btn"
+            onclick="closeCart()">
+            ✕
+        </button>
+
+        <h2 data-i18n="yourCart">
+            🛒 Your Kumbh Jal Cart
+        </h2>
+
+        <div id="cartItems">
+            Your cart is empty.
+        </div>
+
+        <div class="cart-total">
+
+            <span data-i18n="total">
+                Total:
+            </span>
+
+            <span>
+                ₹<span id="cartTotal">0</span>
+            </span>
+
+        </div>
+
+        <button
+            class="checkout-btn"
+            onclick="goToOrder()"
+            data-i18n="checkout">
+
+            Checkout →
+
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-logo">
+        💧 Nashik Kumbh Jal
+    </div>
+
+    <p data-i18n="footerText">
+        🪔 Inspired by the spiritual and cultural
+        heritage of Nashik.
+    </p>
+
+
+    <div class="footer-links">
+
+        <a href="#home" data-i18n="navHome">
+            Home
+        </a>
+
+        <a href="#products" data-i18n="navJal">
+            Jal
+        </a>
+
+        <a href="#about" data-i18n="navAbout">
+            About
+        </a>
+
+        <a href="#order" data-i18n="navOrder">
+            Order
+        </a>
+
+        <a href="my-orders.html">
+            📋 <span data-i18n="myOrders">My Orders</span>
+        </a>
+
+        <a href="track.html">
+            📦 <span data-i18n="trackOrder">Track Order</span>
+        </a>
+
+        <a href="admin.html">
+            🛠️ <span data-i18n="adminPanel">Admin Panel</span>
+        </a>
+
+    </div>
+
+
+    <p class="copyright">
+        © 2026 Nashik Kumbh Jal.
+        <span data-i18n="allRights">
+            All rights reserved.
+        </span>
+    </p>
+
+</footer>
+
+
+<!-- =====================================================
+     EXISTING APP.JS
+     DO NOT CHANGE
+===================================================== -->
+
+<script src="app.js"></script>
+
+
+<!-- =====================================================
+     LANGUAGE + CINEMATIC SCROLL SYSTEM
+===================================================== -->
+
+<script>
+
+const translations = {
+
+    en: {
+
+        navHome:"Home",
+        navJal:"Jal",
+        navExperience:"Experience",
+        navAbout:"About",
+        navOrder:"Order",
+
+        myOrders:"My Orders",
+        trackOrder:"Track Order",
+        adminPanel:"Admin Panel",
+        cart:"Cart",
+
+        heroSmall:"Sacred Water • Nashik • Godavari",
+
+        heroText:
+        "A drop inspired by the spiritual heritage of Nashik, the sacred Godavari and the timeless Kumbh tradition.",
+
+        explore:"Explore Kumbh Jal",
+        discover:"Discover Nashik",
+        scroll:"Scroll to explore",
+
+        divineNashik:"DIVINE NASHIK",
+
+        faithMeets:"Faith Meets Water",
+
+        nashikText:
+        "Nashik is deeply connected with the Godavari, ancient temples and the Kumbh tradition. This experience is inspired by that spiritual atmosphere — water, devotion, heritage and the timeless feeling of Nashik.",
+
+        godavariText:
+        "From the sacred banks of the Godavari, Nashik carries a timeless connection between nature, culture and spiritual tradition.",
+
+        godavariInspiration:"Godavari Inspiration",
+        sacredTradition:"Sacred Tradition",
+        nashikHeritage:"Nashik Heritage",
+
+        experienceTitle:"An Experience Inspired by",
+        faith:"Faith & Tradition",
+
+        experienceText:
+        "Nashik is known for its connection with the Godavari, ancient temples and the Kumbh tradition. Our digital experience brings together water, devotion, heritage and modern presentation.",
+
+        spiritualHeritage:"Spiritual Heritage",
+
+        collection:"🪷 OUR COLLECTION 🪷",
+        chooseYour:"Choose Your",
+        quantity:"Choose the quantity that suits your needs.",
+
+        mini:"MINI",
+        standard:"STANDARD",
+        family:"FAMILY",
+        popular:"POPULAR",
+
+        miniDescription:
+        "Compact size for personal use and spiritual occasions.",
+
+        standardDescription:
+        "A convenient everyday size inspired by Nashik's spiritual heritage.",
+
+        familyDescription:
+        "Suitable for family use, पूजा and special occasions.",
+
+        add:"Add +",
+
+        divineNashikTitle:"Divine Nashik",
+
+        journeyText:
+        "From the banks of the Godavari to the ancient temples of Nashik, the city carries a rich spiritual atmosphere.",
+
+        modernText:
+        "Our website brings elements of that atmosphere into a modern digital experience while keeping the focus on the water product and your ordering journey.",
+
+        divineLight:"Divine Light",
+        flowGodavari:"Flow of Godavari",
+        peaceDevotion:"Peace & Devotion",
+
+        essence:"THE ESSENCE OF NASHIK",
+        moreThan:"More Than",
+        justWater:"Just Water.",
+
+        aboutText1:
+        "Nashik Kumbh Jal is designed as a spiritual themed online experience inspired by Nashik's cultural and religious heritage.",
+
+        aboutText2:
+        "Select your preferred quantity, add it to the cart and enter your delivery details to continue with your order.",
+
+        carefullyPresented:"Carefully Presented",
+        safePackaging:"Safe Packaging",
+        deliverySupport:"Delivery Support",
+        orderTracking:"Order Tracking",
+
+        orderOnline:"🪔 ORDER ONLINE 🪔",
+        getYour:"Get Your",
+        deliveryCarefully:"Enter your delivery details carefully.",
+
+        deliveryDetails:"📦 Delivery Details",
+        yourName:"Your Name",
+        mobileNumber:"Mobile Number",
+        completeAddress:"Complete Delivery Address",
+        pinCode:"PIN Code",
+
+        namePlaceholder:"Enter your full name",
+        mobilePlaceholder:"Enter 10 digit mobile number",
+        addressPlaceholder:"House No., Street, Village/City, District, Maharashtra",
+        pinPlaceholder:"Enter 6 digit PIN code",
+
+        securePayment:"Secure Payment",
+
+        paymentText:
+        "After entering your details, continue to the payment step.",
+
+        continuePayment:"Continue to Payment →",
+
+        yourCart:"🛒 Your Kumbh Jal Cart",
+        total:"Total:",
+        checkout:"Checkout →",
+
+        footerText:
+        "🪔 Inspired by the spiritual and cultural heritage of Nashik.",
+
+        allRights:"All rights reserved."
+    },
+
+
+    mr: {
+
+        navHome:"मुख्यपृष्ठ",
+        navJal:"जल",
+        navExperience:"अनुभव",
+        navAbout:"आमच्याबद्दल",
+        navOrder:"ऑर्डर",
+
+        myOrders:"माझ्या ऑर्डर्स",
+        trackOrder:"ऑर्डर ट्रॅक करा",
+        adminPanel:"अॅडमिन पॅनेल",
+        cart:"कार्ट",
+
+        heroSmall:"पवित्र जल • नाशिक • गोदावरी",
+
+        heroText:
+        "नाशिकचा आध्यात्मिक वारसा, पवित्र गोदावरी आणि शाश्वत कुंभ परंपरेपासून प्रेरित एक थेंब.",
+
+        explore:"कुंभ जल पहा",
+        discover:"नाशिक जाणून घ्या",
+        scroll:"पुढे पाहण्यासाठी स्क्रोल करा",
+
+        divineNashik:"दिव्य नाशिक",
+
+        faithMeets:"जिथे श्रद्धा आणि जल एकत्र येतात",
+
+        nashikText:
+        "नाशिकचा गोदावरी, प्राचीन मंदिरे आणि कुंभ परंपरेशी अतूट संबंध आहे. हा अनुभव जल, भक्ती, वारसा आणि नाशिकच्या आध्यात्मिक वातावरणापासून प्रेरित आहे.",
+
+        godavariText:
+        "पवित्र गोदावरीच्या काठावर वसलेले नाशिक निसर्ग, संस्कृती आणि आध्यात्मिक परंपरेशी जोडलेले आहे.",
+
+        godavariInspiration:"गोदावरीची प्रेरणा",
+        sacredTradition:"पवित्र परंपरा",
+        nashikHeritage:"नाशिकचा वारसा",
+
+        experienceTitle:"प्रेरित अनुभव",
+        faith:"श्रद्धा आणि परंपरा",
+
+        experienceText:
+        "गोदावरी, प्राचीन मंदिरे आणि कुंभ परंपरेशी जोडलेले नाशिक जल, भक्ती, वारसा आणि आधुनिक सादरीकरण यांचा सुंदर अनुभव देते.",
+
+        spiritualHeritage:"आध्यात्मिक वारसा",
+
+        collection:"🪷 आमचा संग्रह 🪷",
+        chooseYour:"तुमचे निवडा",
+        quantity:"तुमच्या गरजेनुसार योग्य प्रमाण निवडा.",
+
+        mini:"लहान",
+        standard:"स्टँडर्ड",
+        family:"कुटुंबासाठी",
+        popular:"लोकप्रिय",
+
+        miniDescription:
+        "वैयक्तिक वापर आणि आध्यात्मिक प्रसंगांसाठी योग्य आकार.",
+
+        standardDescription:
+        "नाशिकच्या आध्यात्मिक वारशापासून प्रेरित दैनंदिन वापरासाठी सोयीस्कर आकार.",
+
+        familyDescription:
+        "कुटुंबासाठी, पूजा आणि विशेष प्रसंगांसाठी योग्य.",
+
+        add:"जोडा +",
+
+        divineNashikTitle:"दिव्य नाशिक",
+
+        journeyText:
+        "गोदावरीच्या काठापासून नाशिकच्या प्राचीन मंदिरांपर्यंत शहरात समृद्ध आध्यात्मिक वातावरण आहे.",
+
+        modernText:
+        "आमची वेबसाइट या वातावरणातील घटकांना आधुनिक डिजिटल अनुभवात आणते आणि जल उत्पादन व ऑर्डर प्रक्रियेवर लक्ष केंद्रित करते.",
+
+        divineLight:"दिव्य प्रकाश",
+        flowGodavari:"गोदावरीचा प्रवाह",
+        peaceDevotion:"शांती आणि भक्ती",
+
+        essence:"नाशिकचा सार",
+        moreThan:"फक्त",
+        justWater:"पाण्यापेक्षा अधिक.",
+
+        aboutText1:
+        "नाशिक कुंभ जल हा नाशिकच्या सांस्कृतिक आणि धार्मिक वारशापासून प्रेरित आध्यात्मिक डिजिटल अनुभव आहे.",
+
+        aboutText2:
+        "तुमच्या आवडीचे प्रमाण निवडा, कार्टमध्ये जोडा आणि ऑर्डर पुढे नेण्यासाठी डिलिव्हरी माहिती भरा.",
+
+        carefullyPresented:"सुंदर सादरीकरण",
+        safePackaging:"सुरक्षित पॅकेजिंग",
+        deliverySupport:"डिलिव्हरी सपोर्ट",
+        orderTracking:"ऑर्डर ट्रॅकिंग",
+
+        orderOnline:"🪔 ऑनलाइन ऑर्डर 🪔",
+        getYour:"तुमचे मिळवा",
+        deliveryCarefully:"डिलिव्हरीची माहिती काळजीपूर्वक भरा.",
+
+        deliveryDetails:"📦 डिलिव्हरी माहिती",
+        yourName:"तुमचे नाव",
+        mobileNumber:"मोबाईल नंबर",
+        completeAddress:"पूर्ण डिलिव्हरी पत्ता",
+        pinCode:"पिन कोड",
+
+        namePlaceholder:"तुमचे पूर्ण नाव टाका",
+        mobilePlaceholder:"१० अंकी मोबाईल नंबर टाका",
+        addressPlaceholder:"घर क्रमांक, रस्ता, गाव/शहर, जिल्हा, महाराष्ट्र",
+        pinPlaceholder:"६ अंकी पिन कोड टाका",
+
+        securePayment:"सुरक्षित पेमेंट",
+
+        paymentText:
+        "तुमची माहिती भरल्यानंतर पेमेंट प्रक्रियेकडे पुढे जा.",
+
+        continuePayment:"पेमेंटसाठी पुढे जा →",
+
+        yourCart:"🛒 तुमची कुंभ जल कार्ट",
+        total:"एकूण:",
+        checkout:"चेकआउट →",
+
+        footerText:
+        "🪔 नाशिकच्या आध्यात्मिक आणि सांस्कृतिक वारशापासून प्रेरित.",
+
+        allRights:"सर्व हक्क राखीव."
+    },
+
+
+    hi: {
+
+        navHome:"होम",
+        navJal:"जल",
+        navExperience:"अनुभव",
+        navAbout:"हमारे बारे में",
+        navOrder:"ऑर्डर",
+
+        myOrders:"मेरे ऑर्डर",
+        trackOrder:"ऑर्डर ट्रैक करें",
+        adminPanel:"एडमिन पैनल",
+        cart:"कार्ट",
+
+        heroSmall:"पवित्र जल • नासिक • गोदावरी",
+
+        heroText:
+        "नासिक की आध्यात्मिक विरासत, पवित्र गोदावरी और सनातन कुंभ परंपरा से प्रेरित एक बूंद।",
+
+        explore:"कुंभ जल देखें",
+        discover:"नासिक जानें",
+        scroll:"आगे देखने के लिए स्क्रॉल करें",
+
+        divineNashik:"दिव्य नासिक",
+
+        faithMeets:"जहाँ आस्था और जल मिलते हैं",
+
+        nashikText:
+        "नासिक का गोदावरी, प्राचीन मंदिरों और कुंभ परंपरा से गहरा संबंध है। यह अनुभव जल, भक्ति, विरासत और नासिक के आध्यात्मिक वातावरण से प्रेरित है।",
+
+        godavariText:
+        "पवित्र गोदावरी के किनारे स्थित नासिक प्रकृति, संस्कृति और आध्यात्मिक परंपरा से जुड़ा हुआ है।",
+
+        godavariInspiration:"गोदावरी की प्रेरणा",
+        sacredTradition:"पवित्र परंपरा",
+        nashikHeritage:"नासिक की विरासत",
+
+        experienceTitle:"एक अनुभव",
+        faith:"आस्था और परंपरा से प्रेरित",
+
+        experienceText:
+        "गोदावरी, प्राचीन मंदिरों और कुंभ परंपरा से जुड़ा नासिक जल, भक्ति, विरासत और आधुनिक प्रस्तुति का अनुभव देता है।",
+
+        spiritualHeritage:"आध्यात्मिक विरासत",
+
+        collection:"🪷 हमारा संग्रह 🪷",
+        chooseYour:"अपना चुनें",
+        quantity:"अपनी आवश्यकता के अनुसार मात्रा चुनें।",
+
+        mini:"मिनी",
+        standard:"स्टैंडर्ड",
+        family:"परिवार",
+        popular:"लोकप्रिय",
+
+        miniDescription:
+        "व्यक्तिगत उपयोग और आध्यात्मिक अवसरों के लिए सुविधाजनक आकार।",
+
+        standardDescription:
+        "नासिक की आध्यात्मिक विरासत से प्रेरित रोज़ाना उपयोग के लिए सुविधाजनक आकार।",
+
+        familyDescription:
+        "परिवार, पूजा और विशेष अवसरों के लिए उपयुक्त।",
+
+        add:"जोड़ें +",
+
+        divineNashikTitle:"दिव्य नासिक",
+
+        journeyText:
+        "गोदावरी के किनारे से लेकर नासिक के प्राचीन मंदिरों तक, शहर में एक समृद्ध आध्यात्मिक वातावरण है।",
+
+        modernText:
+        "हमारी वेबसाइट इस वातावरण के तत्वों को आधुनिक डिजिटल अनुभव में प्रस्तुत करती है और जल उत्पाद तथा ऑर्डर प्रक्रिया पर ध्यान देती है।",
+
+        divineLight:"दिव्य प्रकाश",
+        flowGodavari:"गोदावरी का प्रवाह",
+        peaceDevotion:"शांति और भक्ति",
+
+        essence:"नासिक का सार",
+        moreThan:"सिर्फ",
+        justWater:"पानी से अधिक।",
+
+        aboutText1:
+        "नासिक कुंभ जल नासिक की सांस्कृतिक और धार्मिक विरासत से प्रेरित एक आध्यात्मिक डिजिटल अनुभव है।",
+
+        aboutText2:
+        "अपनी पसंद की मात्रा चुनें, कार्ट में जोड़ें और ऑर्डर जारी रखने के लिए डिलीवरी जानकारी भरें।",
+
+        carefullyPresented:"सुंदर प्रस्तुति",
+        safePackaging:"सुरक्षित पैकेजिंग",
+        deliverySupport:"डिलीवरी सहायता",
+        orderTracking:"ऑर्डर ट्रैकिंग",
+
+        orderOnline:"🪔 ऑनलाइन ऑर्डर 🪔",
+        getYour:"अपना प्राप्त करें",
+        deliveryCarefully:"अपनी डिलीवरी जानकारी ध्यान से भरें।",
+
+        deliveryDetails:"📦 डिलीवरी विवरण",
+        yourName:"आपका नाम",
+        mobileNumber:"मोबाइल नंबर",
+        completeAddress:"पूरा डिलीवरी पता",
+        pinCode:"पिन कोड",
+
+        namePlaceholder:"अपना पूरा नाम दर्ज करें",
+        mobilePlaceholder:"10 अंकों का मोबाइल नंबर दर्ज करें",
+        addressPlaceholder:"घर नंबर, सड़क, गांव/शहर, जिला, महाराष्ट्र",
+        pinPlaceholder:"6 अंकों का पिन कोड दर्ज करें",
+
+        securePayment:"सुरक्षित भुगतान",
+
+        paymentText:
+        "अपनी जानकारी भरने के बाद भुगतान प्रक्रिया पर आगे बढ़ें।",
+
+        continuePayment:"भुगतान के लिए आगे बढ़ें →",
+
+        yourCart:"🛒 आपकी कुंभ जल कार्ट",
+        total:"कुल:",
+        checkout:"चेकआउट →",
+
+        footerText:
+        "🪔 नासिक की आध्यात्मिक और सांस्कृतिक विरासत से प्रेरित।",
+
+        allRights:"सर्वाधिकार सुरक्षित।"
+    }
+
+};
+
+
+/* =====================================================
+   LANGUAGE
+===================================================== */
+
+function changeLanguage(lang) {
+
+    const selected = translations[lang];
+
+    if (!selected) return;
+
+    document.querySelectorAll("[data-i18n]").forEach(element => {
+
+        const key = element.getAttribute("data-i18n");
+
+        if (selected[key]) {
+            element.textContent = selected[key];
+        }
+
+    });
+
+
+    document.querySelectorAll("[data-placeholder]").forEach(element => {
+
+        const key = element.getAttribute("data-placeholder");
+
+        if (selected[key]) {
+            element.placeholder = selected[key];
+        }
+
+    });
+
+
+    document.documentElement.lang = lang;
+
+    localStorage.setItem("nashikKumbhLanguage", lang);
+
+}
+
+
+/* =====================================================
+   RESTORE LANGUAGE
+===================================================== */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const savedLanguage =
+        localStorage.getItem("nashikKumbhLanguage") || "en";
+
+    const selector =
+        document.getElementById("languageSelector");
+
+    if (selector) {
+        selector.value = savedLanguage;
+    }
+
+    changeLanguage(savedLanguage);
+
+});
+
+
+/* =====================================================
+   CINEMATIC SCROLL
+===================================================== */
+
+const cinematicSections =
+    document.querySelectorAll(".cinematic-section");
+
+const observer =
+    new IntersectionObserver(
+
+        entries => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("active");
+
+                }
+
+            });
+
+        },
+
+        {
+            threshold:0.25
+        }
+
+    );
+
+
+cinematicSections.forEach(section => {
+
+    observer.observe(section);
+
+});
+
+
+/* =====================================================
+   SCROLL REVEAL
+===================================================== */
+
+const revealElements =
+    document.querySelectorAll(
+        ".product-card, .features > div, .about-content, .section-heading, .order-box"
+    );
+
+
+const revealObserver =
+    new IntersectionObserver(
+
+        entries => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("reveal-visible");
+
+                }
+
+            });
+
+        },
+
+        {
+            threshold:0.15
+        }
+
+    );
+
+
+revealElements.forEach(element => {
+
+    element.classList.add("reveal-hidden");
+
+    revealObserver.observe(element);
+
+});
+
+
+/* =====================================================
+   PARALLAX
+===================================================== */
+
+window.addEventListener("scroll", () => {
+
+    const scrollY = window.scrollY;
+
+    document.querySelectorAll(".story-background").forEach(bg => {
+
+        const section = bg.parentElement;
+
+        const rect = section.getBoundingClientRect();
+
+        const movement = rect.top * -0.08;
+
+        bg.style.transform =
+            `translate3d(0, ${movement}px, 0) scale(1.08)`;
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>
